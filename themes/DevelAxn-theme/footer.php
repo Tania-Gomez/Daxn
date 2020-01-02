@@ -4,7 +4,7 @@
 
 <?php wp_footer() ?>
 <!-- Sección Contacto -->
-<section class="SectionContact">
+<section class="SectionContact bg-light">
 	<div class="SectionContact__container container mb-3">
 		<h2 class="SectionContact__title text-left py-5">Contáctanos</h2>
 
@@ -139,7 +139,7 @@
 						<li class="footer__item">Blog</li>
 					</ul>
 				</div>
-				<p class="footer__copyright m-3"><small>Copyright © 2019 DevelAccion® | Todos los derechos reservados.</small></p>
+				<p class="footer__copyright m-3"><small>Copyright © <?php echo date("Y") ?> DevelAccion® | Todos los derechos reservados.</small></p>
 			</div>
 		</div>
 	</footer>

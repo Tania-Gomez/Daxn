@@ -1,0 +1,11 @@
+[02-Jan-2020 15:31:08 UTC] PHP Parse error:  syntax error, unexpected 'year_shortcode' (T_STRING) in C:\xampp\htdocs\Daxn\wp-content\themes\DevelAxn-theme\functions.php on line 53
+[02-Jan-2020 15:35:12 UTC] PHP Parse error:  syntax error, unexpected 'year_shortcode' (T_STRING) in C:\xampp\htdocs\Daxn\wp-content\themes\DevelAxn-theme\functions.php on line 53
+[02-Jan-2020 15:35:15 UTC] PHP Parse error:  syntax error, unexpected 'year_shortcode' (T_STRING) in C:\xampp\htdocs\Daxn\wp-content\themes\DevelAxn-theme\functions.php on line 53
+[02-Jan-2020 15:36:48 UTC] PHP Parse error:  syntax error, unexpected 'year_shortcode' (T_STRING) in C:\xampp\htdocs\Daxn\wp-content\themes\DevelAxn-theme\functions.php on line 53
+[02-Jan-2020 15:36:49 UTC] PHP Parse error:  syntax error, unexpected 'year_shortcode' (T_STRING) in C:\xampp\htdocs\Daxn\wp-content\themes\DevelAxn-theme\functions.php on line 53
+[02-Jan-2020 15:37:18 UTC] PHP Parse error:  syntax error, unexpected 'año' (T_STRING), expecting variable (T_VARIABLE) or '{' or '$' in C:\xampp\htdocs\Daxn\wp-content\themes\DevelAxn-theme\functions.php on line 54
+[02-Jan-2020 15:37:37 UTC] PHP Parse error:  syntax error, unexpected 'year' (T_STRING), expecting variable (T_VARIABLE) or '{' or '$' in C:\xampp\htdocs\Daxn\wp-content\themes\DevelAxn-theme\functions.php on line 54
+[02-Jan-2020 15:37:58 UTC] PHP Warning:  Use of undefined constant ‘year’ - assumed '‘year’' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\Daxn\wp-content\themes\DevelAxn-theme\functions.php on line 57
+[02-Jan-2020 15:37:58 UTC] PHP Warning:  Use of undefined constant ‘year_shortcode’ - assumed '‘year_shortcode’' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\Daxn\wp-content\themes\DevelAxn-theme\functions.php on line 57
+[02-Jan-2020 15:39:05 UTC] PHP Warning:  Use of undefined constant ‘year’ - assumed '‘year’' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\Daxn\wp-content\themes\DevelAxn-theme\functions.php on line 57
+[02-Jan-2020 15:39:05 UTC] PHP Warning:  Use of undefined constant ‘year_shortcode’ - assumed '‘year_shortcode’' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\Daxn\wp-content\themes\DevelAxn-theme\functions.php on line 57
