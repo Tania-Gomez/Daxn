@@ -26,4 +26,11 @@
 			LLamar a los scripts en
 			wp-content/functions/wp_enqueue-style.php
 - Activar Bootstrap 4 en
-			functions/_ _ options (true)
+			theme/functions/_ _ options (true)
+- Tamaño personalizado de imágenes
+			En functions/add_image_sizes.php
+			add_image_size( 'rounded', 320, 320, true );   // imagenes clientes
+			add_image_size( 'superbig', 1980, 985, true );   // top img pagina inicio y servicios
+			add_image_size( 'blog_featured', 1400, 870, true );   // img destacada de blog
+			add_image_size( 'blog_index', 440, 320, true );   // img en pagina indice de blog
+			add_image_size( 'services_index', 700, 400, true );   // img en seccion indice de servicios en pg inicio
