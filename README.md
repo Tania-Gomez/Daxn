@@ -34,3 +34,13 @@
 			add_image_size( 'blog_featured', 1400, 870, true );   // img destacada de blog
 			add_image_size( 'blog_index', 440, 320, true );   // img en pagina indice de blog
 			add_image_size( 'services_index', 700, 400, true );   // img en seccion indice de servicios en pg inicio
+- Crear home.php
+			En wp-content>/theme/mi-tema>home.php y traspasar código de index.html
+			No olvidar llamar a header y footer con
+			<?php get_header() ?>
+			<?php get_footer() ?>
+- En home.php carga dinámica de imágenes
+			<?php echo get_theme_file_uri ('assets/images/nombre de la foto.png')
+- Pasar código que corresponda a
+		header.php (barrita superior y menú)
+		footer.php (contacto + sección footer)
