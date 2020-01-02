@@ -47,3 +47,8 @@
 - Editar archivo assets/css/login.css
 		(logo en assets/images/login/logo.svg)
 		Para personalizar pantalla wp-admin
+- Editar single.php
+		Esta es la plantilla para las páginas individuales de las entradas.
+- Hacer 5 entradas
+- Crear page-blog.php (loop)
+	Esta es la plantilla índice de todos los blogs
