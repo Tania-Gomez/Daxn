@@ -44,3 +44,6 @@
 - Pasar código que corresponda a
 		header.php (barrita superior y menú)
 		footer.php (contacto + sección footer)
+- Editar archivo assets/css/login.css
+		(logo en assets/images/login/logo.svg)
+		Para personalizar pantalla wp-admin
