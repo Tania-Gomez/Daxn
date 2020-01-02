@@ -62,3 +62,6 @@
 - Editar page.php
 	This is the template that displays all pages by default.
 - En admin de wp crear páginas de cada programa (4) y talleres (1)
+- Crear custom-post-types para clientes
+- Crear page-nuestros-clientes.php (loop)
+- Alternativa para página de clientes page-customers.php
