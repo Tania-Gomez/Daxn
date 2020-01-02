@@ -54,9 +54,10 @@
 	Esta es la plantilla índice de todos los blogs
 - Crear página "Blog" En el wp-admin
 - Changing The Excerpt Length For All Loops
+	&nbsp;
 		En functions.php agregar:
 		add_filter( 'excerpt_length', function($length) {
     	return 40;
 		} );
-- Colocar año en forma dinámica en pie de página con
-	<?php echo date("Y") ?>
+- Colocar año en forma dinámica en pie de página con <?php echo date("Y") ?>
+- Editar 404
