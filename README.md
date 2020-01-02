@@ -53,11 +53,12 @@
 - Crear page-blog.php (loop)
 	Esta es la plantilla índice de todos los blogs
 - Crear página "Blog" En el wp-admin
-- Changing The Excerpt Length For All Loops
-	&nbsp;
-		En functions.php agregar:
+- Changing The Excerpt Length For All Loops. En functions.php agregar:
 		add_filter( 'excerpt_length', function($length) {
     	return 40;
 		} );
-- Colocar año en forma dinámica en pie de página con <?php echo date("Y") ?>
-- Editar 404
+- Colocar año en forma dinámica en pie de página con <?php echo date("Y")
+- Editar 404.php
+- Editar page.php
+	This is the template that displays all pages by default.
+- En admin de wp crear páginas de cada programa (4) y talleres (1)

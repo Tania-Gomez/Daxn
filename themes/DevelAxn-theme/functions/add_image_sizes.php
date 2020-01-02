@@ -38,7 +38,7 @@ if ( function_exists( 'add_theme_support' ) ) {
 	add_image_size( 'slideshow', 800, 600, true );			// Personalización del tamaño del slideshow
 	add_image_size( 'custom_logo', 800, 600, true );		// Personalización del tamaño del logo
 	add_image_size( 'rounded', 320, 320, true );			// imagenes clientes
-	add_image_size( 'superbig', 1980, 985, true );		// top img pagina inicio y servicios
+	add_image_size( 'superbig', 1980, 980, true );		// top img pagina inicio y servicios
 	add_image_size( 'blog_featured', 1400, 870, true );			// img destacada de blog
 	add_image_size( 'blog_index', 440, 320, true );		// img en pagina indice de blog
 	add_image_size( 'services_index', 700, 400, true );		// img en seccion indice de servicios en pg inicio

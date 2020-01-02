@@ -10,6 +10,19 @@
   padding: 0;
 }
 
+/* Remove possible quote marks (") from <q>, <blockquote>. */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+/* Remove annoying border on linked images. */
+a img {
+	border: none;
+}
+
 h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
