@@ -39,9 +39,3 @@ if ( version_compare( $GLOBALS['wp_version'], $theme_options['wp_min_version'], 
  * @version 1.0
  */
 // remove_action( 'shutdown', 'wp_ob_end_flush_all', 1 );
-
-
-// Changing The Excerpt Length For All Loops
-add_filter( 'excerpt_length', function($length) {
-    return 40;
-} );

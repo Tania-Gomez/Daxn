@@ -134,22 +134,22 @@
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar__list navbar-nav ml-auto">
 						<li class="nav-item">
-							<a class="nav-link" href="">DevelAxn</a>
+							<a class="nav-link" href="inicio">DevelAxn</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="">Programas</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="">Talleres</a>
+							<a class="nav-link" href="talleres">Talleres</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="">Testimonios</a>
+							<a class="nav-link" href="nuestros-clientes">Testimonios</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="">Contacto</a>
+							<a class="nav-link" href="contacto">Contacto</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="">Blog</a>
+							<a class="nav-link" href="blog">Blog</a>
 						</li>
 					</ul>
 				</div>

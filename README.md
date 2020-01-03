@@ -64,4 +64,7 @@
 - En admin de wp crear páginas de cada programa (4) y talleres (1)
 - Crear custom-post-types para clientes
 - Crear page-nuestros-clientes.php (loop)
-- Alternativa para página de clientes page-customers.php
+- Editar botón colapsable en page-nuestros-clientes
+- Crear page-inicio.php
+- Crear menú de navegación dinámico en admin de wp
+- Editar page inicio.php (links y loop clientes) 
