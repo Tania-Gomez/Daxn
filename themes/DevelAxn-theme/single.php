@@ -12,10 +12,8 @@
         </div>
 				<p><?php the_content() ?></p>
 
-              <!-- CTA -->
-          <div class="text-center m-5 py-3">
-            <h3>Ingeniería, coaching y técnicas terapéuticas. Movimiento. Transformación <a href="#" class=" btn btn-primary mr-2">CONTÁCTANOS</a></h3>
-          </div>
+				<!-- cta-programas -->
+				<?php get_template_part('_includes/cta', 'blog') ?>
 
           <div class="bread-crumb d-flex justify-content-between">
             <p class="EntradaBlog__fecha calendario">

@@ -17,9 +17,8 @@
 			<p><?php the_content() ?></p>
 		</div>
 
-		<div class="cta text-center">
-				<h3 class="text-center m-4 pt-3 pb-4"><a href="#" class="btn btn-primary mr-2">CONTÁCTANOS</a>Si quieres cotizar algún programa o quieres que desarrollemos uno a tu medida</h3>
-		</div>
+		<!-- cta-programas -->
+		<?php get_template_part('_includes/cta', 'programas') ?>
 
 	</main>
 

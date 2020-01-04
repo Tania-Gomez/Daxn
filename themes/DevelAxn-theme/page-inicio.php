@@ -59,7 +59,7 @@
 	                <h4 class="sectionProgramas__card-title">Transformación Organizacional</h4>
 	                <p class="sectionProgramas__card-paragraph card-text">Equipos vinculados y comprometidos con el resultado grupal.Líderes colaborativos. Cargos, Funciones, Tareas, interconectadas que potencian el sistema.</p>
 	                  <div class="d-flex flex-row-reverse">
-	                    <a class="sectionProgramas__card-btn btn btn-sm btn-outline-primary" href="#" role="button">más info</a>
+	                    <a class="sectionProgramas__card-btn btn btn-sm btn-outline-primary" href="<?php echo get_theme_file_uri('programas/transformacion-organizacional/') ?>" role="button">más info</a>
 	                  </div>
 	              </div>
 	            </div>
@@ -71,7 +71,7 @@
 	                <h4 class="sectionProgramas__card-title">Emprender, el camino del(a) Guerrer@</h4>
 	                <p class="sectionProgramas__card-paragraph card-text">Accionar ideas, sueños, proyectos o propósitos. Desarrollo de Negocios. Planificación en ambientes inestables. Superar barreras y limitaciones.</p>
 	                <div class="d-flex flex-row-reverse">
-	                  <a class="sectionProgramas__card-btn btn btn-sm btn-outline-primary" href="#" role="button">más info</a>
+	                  <a class="sectionProgramas__card-btn btn btn-sm btn-outline-primary" href="<?php echo get_theme_file_uri('programas/emprender-el-camino-dela-gerrer/') ?>" role="button">más info</a>
 	                </div>
 	              </div>
 	            </div>
@@ -83,7 +83,7 @@
 	                <h4 class="sectionProgramas__card-title">Desarrollo Organizacional Sistémico</h4>
 	                <p class="sectionProgramas__card-paragraph card-text">Organización unida por Inspiración conjunta. Aumenta Bienestar individual y grupal. Vinculación y Pertenencia como llaves del compromiso.</p>
 	                <div class="d-flex flex-row-reverse">
-	                  <a class="sectionProgramas__card-btn btn btn-sm btn-outline-primary" href="#" role="button">más info</a>
+	                  <a class="sectionProgramas__card-btn btn btn-sm btn-outline-primary" href="<?php echo get_theme_file_uri('programas/desarrollo-organizacional-sistemico/') ?>" role="button">más info</a>
 	                </div>
 	              </div>
 	            </div>
@@ -95,17 +95,15 @@
 	                <h4 class="sectionProgramas__card-title">Educación Cívica como RSE</h4>
 	                <p class="sectionProgramas__card-paragraph card-text">Aprendizaje de temas críticos: pensiones, salud y endeudamiento/ahorro. RSE para colaboradores y la sociedad al mismo tiempo.</p>
 	                <div class="d-flex flex-row-reverse">
-	                  <a class="sectionProgramas__btn btn btn-sm btn-outline-primary" href="#" role="button">más info</a>
+	                  <a class="sectionProgramas__btn btn btn-sm btn-outline-primary" href="<?php echo get_theme_file_uri('programas/educacion-civica-como-rse/') ?>" role="button">más info</a>
 	                </div>
 	              </div>
 	            </div>
 	          </div>
 
 	        </div>
-	        <!-- CTA programas -->
-	        <div class="cta__container text-center">
-	          <h3 class="cta__text text-center m-4 py-3"><a href="#" class="cta__btn btn btn-primary mr-2">CONTÁCTANOS</a>Si quieres cotizar algún programa o si quieres que desarrollemos uno a tu medida</h3>
-	        </div>
+					<!-- cta-programas -->
+					<?php get_template_part('_includes/cta', 'programas') ?>
 
 	      </div>
 	    </section>
