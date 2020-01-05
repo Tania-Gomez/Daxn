@@ -5,10 +5,8 @@
 		<?php the_post_thumbnail('super-big', array('class' => 'w-100 h-auto')) ?>
 	</header> -->
 
-	<header class="w-100 text-center mt-5">
-			<div class="headerInicio__jumbotron">
+	<header class="w-100 text-center">
 				<?php the_post_thumbnail('super-big', array('class' => 'w-100 h-auto')) ?>
-			</div>
 	</header>
 
 	<main class="SectionPrograma__container container">

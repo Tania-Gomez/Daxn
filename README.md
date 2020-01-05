@@ -64,4 +64,5 @@
 - Crear page-inicio.php
 - Crear menú de navegación dinámico en admin wp
 - Editar page inicio.php (links y loop clientes)
-- get_template_part
+- get_template_part (3)
+- Ajustes en menú y margenes

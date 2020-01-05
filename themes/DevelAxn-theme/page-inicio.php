@@ -8,12 +8,11 @@
 	        <div class="row">
 	          <img class="headerInicio__logo m-5" src="<?php echo get_theme_file_uri('assets/images/Logo-temp-nombre-slogan.png') ?>" alt="Logo DevelAxn">
 	          <h1 class="headerInicio__slogan m-5">Reunimos ingeniería, coaching y técnicas terapéuticas en Programas de Transformación y Adaptación, con foco en Resultados y RSE</h1>
-	          <h3><a class="headerInicio__btn btn btn-primary m-5" href="#programs" role="button">QUIERO SABER MÁS</a></h3>
+	          <h3 data-aos="flip-left"><a class="headerInicio__btn btn btn-primary m-5" href="#programs" role="button">QUIERO SABER MÁS</a></h3>
 	        </div>
 	      </div>
 	    </div>
 	  </section>
-
 
 	  <main>
 	    <!-- Seccion AboutUs -->
@@ -24,9 +23,8 @@
 	        <div class="row">
 
 	          <div class="SectionAboutUs__container-img col-md-4">
-	            <img class="SectionAboutUs__img w-100 h-auto m-2" src="<?php echo get_theme_file_uri('assets/images/paola-meli.jpg') ?>" alt="Paola Meli fundadora de DevelAxn" data-aos="zoom-in-down">
+	            <img class="SectionAboutUs__img w-100 h-auto m-2" src="<?php echo get_theme_file_uri('assets/images/paola-meli.jpg') ?>" alt="Paola Meli fundadora de DevelAxn">
 	          </div>
-
 	          <div class="SectionAboutUs__container-paragraph col-md-8">
 	            <p class="SectionAboutUs__paragraph">Soy Paola Meli Muñoz, <span style="font-size:20px; color:#3366cc">fundadora</span> de DevelAxn. Ingeniera Civil Industrial UC, coach sistémica, consteladora empresarial y terapeuta, con más de 20 años de experiencia.</p>
 	            <p class="SectionAboutUs__paragraph">Nos dedicamos a realizar Programas de Transformación y Adaptación al mundo cada vez más cambiante al que nos enfrentamos hoy, con <span style="font-size:20px; color:#3366cc">foco</span> en Resultados y en RSE.</p>
@@ -39,7 +37,7 @@
 	        </div>
 	        <!-- CTA about us -->
 	        <div class="cta__container text-center">
-	          <h3 class="cta__text m-4 py-3">Si quieres saber qué podemos hacer por ti <a href="contacto" class="SectionAboutUs__btn btn btn-primary ml-2">CONTÁCTANOS</a></h3>
+	          <h3 class="cta__text m-4 py-3">Si quieres saber qué podemos hacer por ti <a href="contacto" class="SectionAboutUs__btn btn btn-primary ml-2" data-aos="flip-left">CONTÁCTANOS</a></h3>
 	        </div>
 
 	      </div>
@@ -57,7 +55,7 @@
 	              <img src="<?php echo get_theme_file_uri('assets/images/program-transformacion-organizacional.jpg') ?>"  class="sectionProgramas__card-img card-img-top" alt="Transformación Organizacional">
 	              <div class="sectionProgramas__card-content card-body">
 	                <h4 class="sectionProgramas__card-title">Transformación Organizacional</h4>
-	                <p class="sectionProgramas__card-paragraph card-text">Equipos vinculados y comprometidos con el resultado grupal.Líderes colaborativos. Cargos, Funciones, Tareas, interconectadas que potencian el sistema.</p>
+	                <p class="sectionProgramas__card-paragraph card-text">Equipos vinculados y comprometidos con el resultado grupal. Líderes colaborativos. Cargos, Funciones, Tareas interconectadas que potencian el sistema.</p>
 	                  <div class="d-flex flex-row-reverse">
 	                    <a class="sectionProgramas__card-btn btn btn-sm btn-outline-primary" href="<?php echo get_theme_file_uri('programas/transformacion-organizacional/') ?>" role="button">más info</a>
 	                  </div>
@@ -114,35 +112,30 @@
 	        <h2 class="sectionCustomers__title-xxxl text-center">Lo que dicen nuestros clientes</h2>
 	        <div class="row">
 
-	          <!-- customer 1 -->
-	          <div class="col-sm p-3">
-	            <img class="sectionCustomers__img w-75 h-auto mt-2 pb-4 mx-auto d-block" src="<?php echo get_theme_file_uri('assets/images/cliente-caterina-verdi.png') ?>" alt="Cliente DevelAxn"  data-aos="flip-left">
-	            <h3 class="sectionCustomers__title-xl text-secondary">Caterina Verdi</h3>
-	            <h5 class="sectionCustomers__subtitle">Publicista, Empresaria|Grupo Sigma</h5>
-	            <p class="sectionCustomers__paragraph font-italic pt-3">“Por mi experiencia anterior con metodologías como ésta, sabía que sería potente aplicarlas al funcionamiento de una empresa.”</p>
-	          </div>
+							<?php $arg = array(
+							 'post_type'     => 'customers',
+							 'posts_per_page' => 3,
+							 );
 
-	          <!-- customer 2 -->
-	          <div class="col-sm p-3">
-	            <img class="sectionCustomers__img w-75 h-auto mt-2 pb-4 mx-auto d-block" src="<?php echo get_theme_file_uri('assets/images/cliente-german-pizarro.png') ?>" alt="Cliente DevelAxn" data-aos="flip-left">
-	            <h3 class="sectionCustomers__title-xl text-secondary">Germán Pizarro</h3>
-	            <h5 class="sectionCustomers__subtitle">Empresario|IHC Consulting</h5>
-	            <p class="sectionCustomers__paragraph font-italic pt-3">“Fue un trabajo semanal, muy interesante y enriquecedor en el sentido de ir descubriendo a través de ejercicios prácticos, como algunos componentes de la empresa no estaban realmente alineados.”</p>
-	          </div>
+							 $get_arg = new WP_Query( $arg );
 
-	          <!-- customer 3 -->
-	          <div class="col-sm p-3">
-	            <img class="sectionCustomers__img w-75 h-auto mt-2 pb-4 mx-auto d-block" src="<?php echo get_theme_file_uri('assets/images/cliente-alfonso-contreras.png') ?>" alt="Cliente DevelAxn" data-aos="flip-left">
-	            <h3 class="sectionCustomers__title-xl text-secondary">Alfonso Contreras</h3>
-	            <h5 class="sectionCustomers__subtitle">Empresario | SmartGoals, NEP</h5>
-	            <p class="sectionCustomers__paragraph font-italic pt-3">“Mi expectativa era enfocarme y poner a mi favor aspectos que uno sabe que están ahí, pero que normalmente no están en el radar de las empresas y ni de los empresarios.”</p>
-	          </div>
+							 while ( $get_arg->have_posts() ) {
+							 $get_arg->the_post();
+							 ?>
 
-	      </div>
+							 <div class="col-md-4 p-3">
+								 <?php the_post_thumbnail('blog_index', array('class' => 'w-75 h-auto mb-4')) ?>
+   			 				 <h3 class="sectionCustomers__title-xl text-secondary"><?php the_title(); ?></h3>
+   			 				 <h5 class="mt-2"><?php echo get_post_meta($post->ID, 'position', true); ?></h5>
+   			 				 <p class="mt-2"><?php echo get_post_meta($post->ID, 'bajada', true); ?></p>
+							 </div>
+
+							 <?php } wp_reset_postdata(); ?>
+						</div>
 
 	      <!-- CTA testimonios -->
 	      <div class="cta__container text-center">
-	        <h3 class="cta__text m-4 py-3">Conoce más testimonios<a href="nuestros-cientes" class="cta__btn btn btn-primary ml-2">AQUÍ</a></h3>
+	        <h3 class="cta__text m-4 py-3">Conoce más testimonios<a href="nuestros-clientes" class="cta__btn btn btn-primary ml-2" data-aos="flip-left">AQUÍ</a></h3>
 	      </div>
 	    </div>
 

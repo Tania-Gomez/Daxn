@@ -2,8 +2,7 @@
 	<?php the_post() ?>
 
 	<main class="container">
-    <p class="mt-3 pt-3 text-white">.</p>
-    <h2 class="text-center m-5 pt-3"><?php the_title() ?></h2>
+    <h2 class="text-center mt-5"><?php the_title() ?></h2>
     <div class="row">
 
       <?php $arg = array(

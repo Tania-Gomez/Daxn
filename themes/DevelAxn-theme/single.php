@@ -4,8 +4,8 @@
 	<?php while ( have_posts() ) { ?>
 		<?php the_post(); ?>
 
-		<article class="EntradaBlog__container container mt-2">
-        <div class="text-center mt-5 pt-5">
+		<article class="EntradaBlog__container container">
+        <div class="text-center">
           <h2 class="EntradaBlog__title-xxxl mt-5"><?php the_title() ?></h2>
 
           <img class="w-100 h-auto my-4" src="<?php the_post_thumbnail('blog-featured', array('class' => 'w-100 h-auto')) ?>">
@@ -14,15 +14,8 @@
 
 				<!-- cta-programas -->
 				<?php get_template_part('_includes/cta', 'blog') ?>
-
-          <div class="bread-crumb d-flex justify-content-between">
-            <p class="EntradaBlog__fecha calendario">
-							<i class="fas fa-calendar-alt pr-2"></i>
-							<time datetime="<?php the_time('Y-m-d') ?>"><?php the_time('d \d\e F \d\e Y') ?></time>
-						</p>
-            <p>Volver al Blog <i class="far fa-arrow-alt-circle-right"></i></p>
-          </div>
-
+				<!-- pie de blog -->
+				<?php get_template_part('_includes/pie', 'blog') ?>
     </article>
 
 	<?php } ?>

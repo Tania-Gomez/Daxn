@@ -83,7 +83,6 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  margin-top: 5rem;
   height: 600px;
 }
 
@@ -92,7 +91,6 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
-  margin-top: 5rem;
   height: 650px;
 }
 

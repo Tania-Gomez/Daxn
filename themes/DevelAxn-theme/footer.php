@@ -157,7 +157,7 @@
 	<script>
 		AOS.init({
 			 easing: 'ease-out-cubic',
-			 duration: 1000,
+			 duration: 1200,
 			 delay: 100,
 			 once: true,
 			 disable: 'mobile'
