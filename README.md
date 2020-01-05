@@ -66,3 +66,4 @@
 - Editar page inicio.php (links y loop clientes)
 - get_template_part (3)
 - Ajustes en menú y margenes
+- Contact Form Plugin
