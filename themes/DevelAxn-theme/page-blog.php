@@ -35,5 +35,7 @@
        <?php } wp_reset_postdata(); ?>
     </div>
 	</main>
+	<!-- seccion contacto -->
+	<?php get_template_part('_includes/contact', 'section') ?>
 
 <?php get_footer() ?>

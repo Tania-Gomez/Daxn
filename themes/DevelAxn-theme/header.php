@@ -9,15 +9,15 @@
 </head>
 <body>
 
-	<!-- Este es el código original -->
-	<!-- <?php if ( has_nav_menu( 'header-menu' ) ) { ?>
+	<!-- Código original
+	<?php if ( has_nav_menu( 'header-menu' ) ) { ?>
 		<?php wp_nav_menu( array(
 			'theme_location' => 'header-menu',
 			'container_class' => 'header-menu'
 		) ); ?>
 	<?php } ?> -->
-	<!-- se reemplaza por este otro -->
-   <?php get_template_part('_includes/nav', 'bootstrap4') ?>
+	<!-- Se cambia por este otro -->
+	<?php get_template_part('_includes/nav', 'bootstrap4') ?>
 
 	<!-- Esta es barrita superior con info -->
 		<section class="SectionTop text-white fixed-top">
@@ -130,7 +130,7 @@
 		<!-- Este es el Navbar -->
 		<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
 			<div class="navbar__container container">
-				<a class="navbar-brand" href="<?php bloginfo('url') ?>"><img src="<?php echo get_theme_file_uri('assets/images/logo.jpg') ?>" class="navbar__logo img-responsive" alt="Logo DevelAxn"></a>
+				<a class="navbar-brand" href="#"><img src="<?php echo get_theme_file_uri('assets/images/logo.jpg') ?>" class="navbar__logo img-responsive" alt="Logo DevelAxn"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>

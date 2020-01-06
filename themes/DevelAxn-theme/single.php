@@ -23,4 +23,7 @@
 	<!-- Content -->
 <?php } wp_reset_query(); ?>
 
+<!-- seccion contacto -->
+<?php get_template_part('_includes/contact', 'section') ?>
+
 <?php get_footer() ?>
