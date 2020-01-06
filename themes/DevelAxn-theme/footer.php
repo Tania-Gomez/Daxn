@@ -49,19 +49,19 @@
 
 	<!-- AOS JS 2.3.1/ -->
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-	<script>
-		AOS.init({
-			 easing: 'ease-out-cubic',
-			 duration: 1200,
-			 delay: 100,
-			 once: true,
-			 disable: 'mobile'
-		});
+			<script>
+				AOS.init({
+					 easing: 'ease-out-cubic',
+					 duration: 1200,
+					 delay: 100,
+					 once: true,
+					 disable: 'mobile'
+				});
+			</script>
 	</script>
 
-	<!-- </script>
-		Mi script
-	<script src="assets/js/my_script.js"></script> -->
+	<!-- Mi script -->
+	<!-- <script src="<?php echo get_theme_file_uri('assets/js/my_script.js') ?>"></script> -->
 
 </body>
 </html>

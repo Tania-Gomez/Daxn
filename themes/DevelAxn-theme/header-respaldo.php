@@ -130,39 +130,29 @@
 		<!-- Este es el Navbar -->
 		<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
 			<div class="navbar__container container">
-				<a class="navbar-brand" href="<?php echo get_home_url() ?>"><img src="<?php echo get_theme_file_uri('assets/images/logo.jpg') ?>" class="navbar__logo img-responsive" alt="Logo DevelAxn"></a>
+				<a class="navbar-brand" href="#"><img src="<?php echo get_theme_file_uri('assets/images/logo.jpg') ?>" class="navbar__logo img-responsive" alt="Logo DevelAxn"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar__list navbar-nav ml-auto">
 						<li class="nav-item">
-							<a class="nav-link text-secondary" href="inicio">DevelAxn</a>
-						</li>
-
-						<div class="dropdown">
-						  <a class="btn dropdown-toggle text-secondary" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						    Programas</a>
-
-						  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-							    <a class="dropdown-item" href="<?php echo get_theme_file_uri('programas/transformacion-organizacional/') ?>">Transformación Organizacional</a>
-							    <a class="dropdown-item" href="<?php echo get_theme_file_uri('programas/emprender-el-camino-del-a-guerrero-a/') ?>">Emprender, el camino del(a) Guerrer@</a>
-							    <a class="dropdown-item" href="<?php echo get_theme_file_uri('programas/desarrollo-organizacional-sistemico/') ?>">Desarrollo Organizacional Sistémico</a>
-									<a class="dropdown-item" href="<?php echo get_theme_file_uri('programas/educacion-civica-como-rse/') ?>">Educación Cívica como RSE</a>
-						  </div>
-						</div>
-
-						<li class="nav-item">
-							<a class="nav-link text-secondary" href="talleres">Talleres</a>
+							<a class="nav-link" href="inicio">DevelAxn</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link text-secondary" href="nuestros-clientes">Testimonios</a>
+							<a class="nav-link" href="">Programas</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link text-secondary" href="contacto">Contacto</a>
+							<a class="nav-link" href="talleres">Talleres</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link text-secondary" href="blog">Blog</a>
+							<a class="nav-link" href="nuestros-clientes">Testimonios</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contacto">Contacto</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="blog">Blog</a>
 						</li>
 					</ul>
 				</div>
