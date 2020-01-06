@@ -66,6 +66,5 @@
 - Editar page inicio.php (links y loop clientes)
 - get_template_part
 - Contact Form Plugin
-- Crear campos personalizados para páginas. Llamarlos con <?php echo get_post_meta($post->ID, 'key', true); ?> Key es el nombre del campo personalizado, reemplazar 'key' por el nombre que corresponda.
-- Usando do_shortcode en WordPress para mostrar formulario CF7
-- Lamar al formulario con do_shortcode: <?php echo do_shortcode( '[your shortcode goes here]' ); ?>
+- Crear campos personalizados para páginas. Llamarlos con: echo get_post_meta($post->ID, 'key', true);  Key es el nombre del campo personalizado, reemplazar key por el nombre que corresponda.
+- Usando do_shortcode en WordPress para mostrar formulario CF7. Lamar al formulario con: echo do_shortcode( '[your shortcode goes here]' );
